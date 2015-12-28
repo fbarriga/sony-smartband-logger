@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="20dip">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:text="@string/about_app_description"
+    android:textColor="?android:attr/textColorPrimary" />
+
+<TextView
+    android:id="@+id/about_credits"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="50dip"
+    android:textSize="16sp"
+    android:text="@string/about_app_credits"
+    android:autoLink="web"
+    android:textColor="?android:attr/textColorSecondary"
+    android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Thanks to:\n\n http://AndroidPlot.com\n https://OpenClipArt.org"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:paddingTop="100dp"/>
+
+</LinearLayout>

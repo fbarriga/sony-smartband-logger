@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+    android:paddingLeft="0dp"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+        <ImageView
+            android:id="@+id/list_icon"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/icon"
+            android:contentDescription="Icon"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+        </ImageView>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right">
+
+            <TextView
+                android:id="@+id/list_filename_txt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet"
+                android:textSize="18sp"
+                android:paddingTop="5dp"
+                android:singleLine="true">
+            </TextView>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="2015/11/16 16:00:00"
+                    android:id="@+id/list_creation_date_text"
+                    android:gravity="left|bottom"/>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:id="@+id/list_records_txt"
+                    android:text="000 records"
+                    android:gravity="bottom|right"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Log Prefix"
+        android:defaultValue="@string/settings_default_log_prefix"
+        android:key="logPrefix"
+        android:summary="Log filename prefix. e.g.: BandLogger_" />
+    <CheckBoxPreference android:title="Print Debug Messages"
+        android:defaultValue="@string/settings_default_debug"
+        android:summary="Print logs of retrieved data."
+        android:key="debugMessages" />
+    <CheckBoxPreference android:title="Smooth data"
+        android:defaultValue="@string/settings_default_smooth"
+        android:summary="Smooth retrieved data. This will reduce saved data but will decrease precision."
+        android:key="smoothData" />
+    <ListPreference     android:title="Data Rate"
+        android:summary="Select the rate of data recording. Faster rate will increase battery usage."
+        android:key="dataRate"
+        android:defaultValue="@string/settings_default_rate"
+        android:entries="@array/preferencesRateArray"
+        android:entryValues="@array/preferencesRateValues" />
+
+    <ListPreference     android:title="Interval Duration"
+                        android:summary="Duration of the intervals."
+                        android:key="intervalDurationSeconds"
+                        android:defaultValue="@string/settings_default_interval"
+                        android:entries="@array/preferencesIntervalDurationArray"
+                        android:entryValues="@array/preferencesIntervalDurationValues" />
+
+    <ListPreference     android:title="Time between Intervals"
+                        android:summary="Time between Intervals."
+                        android:key="timeBetweenIntervalsSeconds"
+                        android:defaultValue="@string/settings_default_time_between_intervals"
+                        android:entries="@array/preferencesTimeBetweenIntervalsArray"
+                        android:entryValues="@array/preferencesTimeBetweenIntervalsValues" />
+
+    <ListPreference     android:title="Plot Line Width"
+        android:summary="Select the width of the lines on the plot."
+        android:key="plotLineWidth"
+        android:defaultValue="@string/settings_default_plot_line_width"
+        android:entries="@array/preferencesPlotLineWidthArray"
+        android:entryValues="@array/preferencesPlotLineWidthValues" />
+
+</PreferenceScreen>

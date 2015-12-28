@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="plot_x">#FFFF6464</color>
+    <color name="plot_y">#FF64FF64</color>
+    <color name="plot_z">#FF6464FF</color>
+</resources>

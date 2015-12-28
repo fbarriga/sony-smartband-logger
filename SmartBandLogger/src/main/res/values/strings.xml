@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- No translation of sample extensions -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!-- Name of app, shown when installing/uninstalling extension -->
+    <string name="app_name">BandLogger</string>
+    <!-- Title of preference activity -->
+    <string name="preference_activity_title">Settings</string>
+    <!-- Name of extension, shown in preferences -->
+    <string name="extension_name">BandLogger</string>
+    <!-- Configuration title shown in preferences -->
+    <string name="configuration_text">BandLogger Settings</string>
+    <string name="main_status_text">Status:</string>
+    <string name="main_data_rate_text">Data Rate:</string>
+    <string name="main_log_filename_text">Log Filename:</string>
+    <string name="main_records_text">Records:</string>
+    <string name="main_elapsed_time_text">Elapsed Time:</string>
+    <string name="main_log_size_text">Log size:</string>
+
+    <string name="show_logs_activity_title">ShowLogs</string>
+
+    <string name="about_app_description">
+SmartBand Logger let you log all the retrieved data from Sony SmartBands.
+</string>
+<string name="about_app_credits">
+Felipe Barriga Richards
+</string>
+
+    <string name="settings_default_log_prefix">BandLogger_</string>
+    <string name="settings_default_debug">false</string>
+    <string name="settings_default_smooth">false</string>
+    <string name="settings_default_rate">1</string>
+    <string name="settings_default_interval">-1</string>
+    <string name="settings_default_time_between_intervals">-1</string>
+    <string name="settings_default_plot_line_width">1.5f</string>
+    <string name="main_menu_show_logs">Show Logs</string>
+    <string name="main_menu_preferences">Preferences</string>
+    <string name="main_menu_about">About</string>
+    <string name="log_suffix_date_format">yyyyMMddHHmmss</string>
+    <string name="show_logs_date_format">yyyy-MM-dd HH:mm:ss</string>
+    <string name="main_size_label">%d bytes</string>
+    <string name="main_elapsed_label">%d seconds</string>
+
+</resources>

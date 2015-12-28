@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferencesRateArray">
+        <item>Fastest</item>
+        <item>Fast</item>
+        <item>Normal</item>
+        <item>Slow</item>
+    </string-array>
+
+    <string-array name="preferencesRateValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="preferencesPlotLineWidthArray">
+        <item>Super Big</item>
+        <item>Big</item>
+        <item>Normal</item>
+        <item>Small</item>
+        <item>Super Small</item>
+    </string-array>
+
+    <string-array name="preferencesPlotLineWidthValues">
+        <item>2.0f</item>
+        <item>1.5f</item>
+        <item>1.0f</item>
+        <item>0.7f</item>
+        <item>0.5f</item>
+    </string-array>
+
+    <string-array name="preferencesIntervalDurationArray">
+        <item>Forever</item>
+        <item>15 Minutes</item>
+        <item>10 Minutes</item>
+        <item>5 Minutes</item>
+        <item>2 Minutes</item>
+        <item>90 Seconds</item>
+        <item>60 Seconds</item>
+        <item>30 Seconds</item>
+        <item>15 Seconds</item>
+        <item>10 Seconds</item>
+        <item>5 Seconds</item>
+    </string-array>
+
+    <string-array name="preferencesIntervalDurationValues">
+        <item>-1</item>
+        <item>900</item>
+        <item>600</item>
+        <item>300</item>
+        <item>120</item>
+        <item>90</item>
+        <item>60</item>
+        <item>30</item>
+        <item>15</item>
+        <item>10</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="preferencesTimeBetweenIntervalsArray">
+        <item>Only One Interval</item>
+        <item>120 Minutes</item>
+        <item>90 Minutes</item>
+        <item>60 Minutes</item>
+        <item>30 Minutes</item>
+        <item>15 Minutes</item>
+        <item>10 Minutes</item>
+        <item>5 Minutes</item>
+        <item>1 Minute</item>
+        <item>30 Seconds</item>
+        <item>15 Seconds</item>
+    </string-array>
+
+    <string-array name="preferencesTimeBetweenIntervalsValues">
+        <item>-1</item>
+        <item>7200</item>
+        <item>5400</item>
+        <item>3600</item>
+        <item>1800</item>
+        <item>900</item>
+        <item>600</item>
+        <item>300</item>
+        <item>60</item>
+        <item>30</item>
+        <item>15</item>
+    </string-array>
+</resources>
