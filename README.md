@@ -4,3 +4,7 @@
 ```
 ./gradlew build
 ```
+
+# try it
+
+https://play.google.com/store/apps/details?id=cl.felipebarriga.android.smartbandlogger
